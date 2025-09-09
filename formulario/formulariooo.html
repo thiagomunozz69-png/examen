@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>COUNTRY CLUB </header>
+    <div>
+        <img src="imagenessss/country.jpg" width=150>
+    </div>
+    <main>
+        <form>
+            <h1>contacto con el club</h1>
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <div>
+                    <label for="nombre">ingrese nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+
+                    <label for="apellido">ingrese apellido</label>
+                    <input type="text" name="apellidos" id="apellido">
+                </div>
+                <div>
+                    <label for="email">ingrese su gmail</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="dni">ingrese su dni</label>
+                    <input type="number" name="documento" id="dni">
+
+                    <label for="nacimiento">ingrese su nacimiento</label>
+                    <input type="date" name="fecha" id="nacimiento">
+                </div>
+
+                <legend>PREFERENCIAS DEL CLUB</legend>
+                <div>
+                    <label for="socio">es socio del club?</label>
+                    <input type="radio" name="socio si" id="socio si">si
+                    <input type="radio" name="socio no" id="socio no">no
+
+                </div>
+                <label for="deportes">seleccionar deportes</label>
+                <select name="deportes" id="deportes">
+
+                    <option value="deportes">seleccione el deporte</option>
+                    <option value="basketball">basketball</option>
+                    <option value="tenis">tenis</option>
+                    <option value="golf">golf</option>
+                    <option value="natacion">natacion</option>
+                </select>
+
+                <label for="familiares">seleccione sus familiares</label>
+                <select name="cantidad" id="familiares">
+                    <option value="2">2 familiares</option>
+                    <option value="3">3 familiares</option>
+                    <option value="4">4 familiares</option>
+                    <option value="más de 4">+ 4 familiares</option>
+                </select>
+
+
+                <fieldset>
+                    <legend>Comentarios sobre el country club </legend>
+                    <label for="comentario">Escribir mensaje</label>
+                    <div>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
